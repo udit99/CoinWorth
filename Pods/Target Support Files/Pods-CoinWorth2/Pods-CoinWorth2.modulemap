@@ -1,0 +1,6 @@
+framework module Pods_CoinWorth2 {
+  umbrella header "Pods-CoinWorth2-umbrella.h"
+
+  export *
+  module * { export * }
+}

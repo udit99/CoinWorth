@@ -14,6 +14,7 @@
 		CC523C371EE05B4F0080B64A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC523C351EE05B4F0080B64A /* LaunchScreen.storyboard */; };
 		CC523C421EE05B4F0080B64A /* CoinWorth2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC523C411EE05B4F0080B64A /* CoinWorth2Tests.swift */; };
 		CC523C4D1EE05B4F0080B64A /* CoinWorth2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC523C4C1EE05B4F0080B64A /* CoinWorth2UITests.swift */; };
+		D0551B27435829ED77CD6058 /* Pods_CoinWorth2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 683B2178FB34349D0F7F7882 /* Pods_CoinWorth2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		683B2178FB34349D0F7F7882 /* Pods_CoinWorth2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoinWorth2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC8573C6EC736F603C14C39F /* Pods-CoinWorth2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoinWorth2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoinWorth2/Pods-CoinWorth2.debug.xcconfig"; sourceTree = "<group>"; };
 		CC523C291EE05B4F0080B64A /* CoinWorth2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoinWorth2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC523C2C1EE05B4F0080B64A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC523C2E1EE05B4F0080B64A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		CC523C481EE05B4F0080B64A /* CoinWorth2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoinWorth2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC523C4C1EE05B4F0080B64A /* CoinWorth2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinWorth2UITests.swift; sourceTree = "<group>"; };
 		CC523C4E1EE05B4F0080B64A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA41C2086C889D4422BB3434 /* Pods-CoinWorth2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoinWorth2.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoinWorth2/Pods-CoinWorth2.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0551B27435829ED77CD6058 /* Pods_CoinWorth2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +79,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1BCEFD2387C074AFA5282ACE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC8573C6EC736F603C14C39F /* Pods-CoinWorth2.debug.xcconfig */,
+				EA41C2086C889D4422BB3434 /* Pods-CoinWorth2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4F605E84F5E4C477F644F0A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				683B2178FB34349D0F7F7882 /* Pods_CoinWorth2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CC523C201EE05B4E0080B64A = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +103,8 @@
 				CC523C401EE05B4F0080B64A /* CoinWorth2Tests */,
 				CC523C4B1EE05B4F0080B64A /* CoinWorth2UITests */,
 				CC523C2A1EE05B4F0080B64A /* Products */,
+				1BCEFD2387C074AFA5282ACE /* Pods */,
+				4F605E84F5E4C477F644F0A4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CC523C511EE05B4F0080B64A /* Build configuration list for PBXNativeTarget "CoinWorth2" */;
 			buildPhases = (
+				0745818325A9631540526E89 /* [CP] Check Pods Manifest.lock */,
 				CC523C251EE05B4F0080B64A /* Sources */,
 				CC523C261EE05B4F0080B64A /* Frameworks */,
 				CC523C271EE05B4F0080B64A /* Resources */,
+				93CDF0D7CC7DA0515A95614C /* [CP] Embed Pods Frameworks */,
+				A7C73EA83CBD33DED2787242 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +280,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0745818325A9631540526E89 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		93CDF0D7CC7DA0515A95614C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoinWorth2/Pods-CoinWorth2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7C73EA83CBD33DED2787242 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoinWorth2/Pods-CoinWorth2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CC523C251EE05B4F0080B64A /* Sources */ = {
@@ -412,6 +487,7 @@
 		};
 		CC523C521EE05B4F0080B64A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC8573C6EC736F603C14C39F /* Pods-CoinWorth2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CoinWorth2/Info.plist;
@@ -424,6 +500,7 @@
 		};
 		CC523C531EE05B4F0080B64A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA41C2086C889D4422BB3434 /* Pods-CoinWorth2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CoinWorth2/Info.plist;
